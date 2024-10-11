@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.informacao {
+
+    text-align: center;
+    color: black;
+}
+
+
+#logo {
+    width: 150px;
+}
+
+#foto {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+@media (max-width: 600px) {
+    #foto {
+        width: 100px;
+    }
+    
+    .menu-item {
+        padding: 10px;
+    }
+}
+
+.topo{
+    align-items: center;
+}
